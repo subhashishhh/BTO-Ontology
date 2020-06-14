@@ -3,7 +3,7 @@ The purpose of this work is to develop an ontology-based framework for developin
 
 <b>Citation: </b> Das, Subhashis, and Sayon Roy. "Faceted Ontological Model for Brain Tumour Study." KO KNOWLEDGE ORGANIZATION 43, no. 1 (2016): 3-12.
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
