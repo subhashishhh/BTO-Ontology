@@ -1,0 +1,2008 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NegativePropertyAssertion" ],
+  "http://www.w3.org/2002/07/owl#assertionProperty" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sourceIndividual" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Ependymoblastoma"
+  } ],
+  "http://www.w3.org/2002/07/owl#targetIndividual" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Acibadem_Kozyatagi_Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "Inonu Caddesi, Okur Sk., No. 20"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Istanbul"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Turkey"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Acibadem Kozyatagi Hospital"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "34742"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Clinic_address"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#American_Brain_Tumor_Association",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Research_Institution" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Institution_no" : [ {
+    "@value" : "773-577-8750"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_url" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.abta.org/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Anaplastic_astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Higher-grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Accounts for two percent of all brain tumors"
+  }, {
+    "@value" : "Common among men and women in their 30s-50s"
+  }, {
+    "@value" : "Grows faster and more aggressively than grade II astrocytomas"
+  }, {
+    "@value" : "Invades neighboring tissue"
+  }, {
+    "@value" : "More common in men than women"
+  }, {
+    "@value" : "Tumor cells are not uniform in appearance"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "55353007"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This tumor is a locally aggressive, destructive form of astrocytoma. It spreads into, or \"infiltrates\"normal brain, and is considered malignant. It may occur anywhere within the central nervous system (CNS). Conventional treatment options include surgery and radiation therapy. Even after these treatments, it may recur. About half of the patients can be expected to have a partial response to chemotherapy. Experimental therapies are often recommended if the tumor continues to progress despite these standard treatments."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Anaplastic_mixed_glioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Higher-grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is an infiltrating glioma that grows relatively rapidly and contains more than one type of tumor cell -- an aggressive combination of an astrocytoma and an oligodendroglioma. Conventional treatment options include surgery and radiation therapy. The response of this tumor to chemotherapy is intermediate between anaplastic astrocytoma and anaplastic oligodendroglioma."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Anaplastic_oligodendroglioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Higher-grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3102004"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "An anaplastic oligodendroglioma is an aggressive (malignant) type of oligodendroglioma. Conventional treatment options include surgery and radiation therapy. Also, most of these tumors would be expected to respond to chemotherapy. A combination of procarbazine, CCNU and vincristine, called \"PCV\" is used. Recent evidence suggests that specific chromosomal abnormalities may predict the response to chemotherapy."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Arachnoid_cysts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Atypical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Meningioma" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#identifiedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Magnetic_Resonance_Imaging"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Being_exposed_to_agricultural_chemicals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Being_exposed_to_industrial_formaldehyde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Being exposed to"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Meningioma" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#identifiedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Magnetic_Resonance_Imaging"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_Tumor_Association_of_Western_Australia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Research_Institution" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Institution_no" : [ {
+    "@value" : "(08)63146680"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_url" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.btawa.com.au/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_Tumor_foundation_of_Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Research_Institution" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Cause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Bumrungrad_International",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "33 Sukhumvit 3 (Soi Nana Nua)\nWattana"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Bangkok"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Thailand"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Bumrungrad International"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10110"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#CIMA_Monterrey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "Frida Kahlo 180 Col. Valle Oriente"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Monterrey"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Mexico"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "CIMA Monterrey"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "66260"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#CNS_Lymphoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_Central_Nervous_System_Lymphoma_(PCNSL)" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Accounts for about two percent of all brain tumors"
+  }, {
+    "@value" : "Can be primary (originating in the brain) or secondary"
+  }, {
+    "@value" : "More common in men than women"
+  }, {
+    "@value" : "More common in people whose immune systems are compromised"
+  }, {
+    "@value" : "Most common among men and women in their 60s-80s, but incidence is increasing in young adults"
+  }, {
+    "@value" : "Often develops in the brain, commonly in the areas adjacent to the ventricles"
+  }, {
+    "@value" : "Usually involves multiple tumors throughout the central nervous system (CNS)"
+  }, {
+    "@value" : "Very aggressive"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Partial_paralysis_on_one_side_of_the_body"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Speech_difficulty_of_gradual_onset"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A change in behavior: The development of an \"I don't care\" attitude, memory loss, loss of concentration, and general confusion may all be subtle signs. In this case, an evaluation by a neurologist may be an important step, but a CT or MRI will also help."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Chemotherapy is the treatment of cancer with one or more cytotoxic antineoplastic drugs (\"chemotherapeutic agents\") as part of a standardized regimen. Chemotherapy may be given with a curative intent or it may aim to prolong life or to palliate symptoms. It is often used in conjunction with other cancer treatments, such as radiation therapy or surgery. Certain chemotherapeutic agents also have a role in the treatment of other conditions, including ankylosing spondylitis, multiple sclerosis, Crohn's disease, psoriasis, psoriatic arthritis, rheumatoid arthritis, and scleroderma."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chondroma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31186001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chondrosarcoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14990007"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chordoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Can block the ventricles, causing hydrocephalus (water on the brain)"
+  }, {
+    "@value" : "Can metastasize (spread) or recur"
+  }, {
+    "@value" : "Invades the bone and soft tissues but rarely the brain tissue"
+  }, {
+    "@value" : "Occurs at the sacrum, near the lower tip of the spine, or at the base of the skull"
+  }, {
+    "@value" : "Originates from cells left over from early fetal development"
+  }, {
+    "@value" : "Rare and low grade"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Double_vision"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "50007008"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Choroid_plexus_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Choroid_plexus_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a malignant variety of the choroid plexus papilloma (see below). It usually occurs in children, and can invade normal brain. A few patients have been cured with complete surgical removal of the tumor. Otherwise, radiation and high dose chemotherapy may be used to attempt control this tumor, because it is highly aggressive and can often be fatal."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Choroid_plexus_papilloma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Choroid_plexus_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a benign tumor that arises within the brain's ventricles from the cells (in the \"choroid plexus\") that make spinal fluid. A choroid plexus papilloma generally becomes apparent during infancy or early childhood. It may cause over-production (or blockage) of spinal fluid, resulting in an accumulation of this fluid within the ventricular cavities of the brain -- this is called \"hydrocephalus\". The tumor is treated with surgical removal. In rare instances, the tumor may re-grow or spread throughout the nervous system."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Choroid_plexus_tumour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Christus_Muguerza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "Av. Hidalgo 2525 Poniente\nColonia Obispado"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Monterrey"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Mexico"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "64060"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chromosome_Changes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The most common\nchromosomal changes in brain tumors occur on\nchromosomes 1, 10, 13, 17, 19 and 22.\nChanges on chromosomes 1 and 19 are most\nfrequently found in oligodendrogliomas. Changes\non chromosome 22 are most frequently found in\nmeningiomas."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Clinic_address"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Colloid_cyst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Computed_Tomography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Diagnosis" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#requiredCost" : [ {
+    "@value" : "Rs 1400-2500"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A CT (or CAT) scan is a series of detailed pictures of the brain. The pictures are created by a computer linked to an x-ray machine. In some cases, a special dye is injected into a vein before the scan. The dye helps to show differences in the tissues of the brain."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Confusion_and_disorientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Consuming_cured_foods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "nitrites"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Clinic_address"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Craniopharyngioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Also grows in the regions of the optic nerves and the hypothalamus, near the pituitary gland"
+  }, {
+    "@value" : "Most common in the parasellar region, an area at the base of the brain and near the optic nerves"
+  }, {
+    "@value" : "Occurs in children and men and women in their 50s and 60s"
+  }, {
+    "@value" : "Often accompanied by a cyst"
+  }, {
+    "@value" : "Originates in cells left over from early fetal development"
+  }, {
+    "@value" : "Tends to be low grade"
+  }, {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Delayed_development_in_children"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "189179009"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a cystic tumor that arises just above the pituitary gland. It is usually first diagnosed at one of two ages -- childhood or the elderly. It grows relatively slowly. The principle threat is to vision (as the tumor may compress the optic nerves) and to the function of the pituitary gland. When very large, this tumor may threaten neurologic function or life itself due to pressure on the brain. It may also block the drainage of spinal fluid, causing hydrocephalus. Surgery is usually considered the first line treatment because a craniopharyngioma can sometimes be cured at the first operation if it is completely removed. Complete removal may not be possible however, because of \"fingers\" of the tumor that invades into adjacent brain structures. In some cases, simple drainage of the cyst fluid and/or injection of radioactive fluid can control the symptoms and growth. Radiosurgery or radiation therapy may be used in some cases. Although this is a relatively benign tumor, the progressive growth may be difficult to control and some patients die of this disease."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Delayed_development_in_children",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Dermoid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Difficulty_walking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Double_vision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Double vision, especially if it is associated with headache"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Dysembroplastic_neuroepithelial_tumor_(DNT)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Early_morning_vomiting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Cause"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Ependymoblastoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primitive_neuroectodermal_tumors_(PNET)" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "21589007"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This tumor arises from the ependymal cells lining the cerebrospinal fluid sacs (ventricles) of the brain. It commonly affects children but can occur at any age. An ependymoma is a low-grade malignancy that is best treated by removing as much as is safely possible by surgery. Sometimes the tumor cells can spread through the spinal fluid. Radiation therapy is sometimes used. It has not yet been determined whether or not chemotherapy is useful in these tumors. A myxopapillary ependymoma is a benign tumor that occurs in the spine."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Ependymoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lower_grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Accounts for two percent of all brain tumors"
+  }, {
+    "@value" : "Can be slow growing or fast growing"
+  }, {
+    "@value" : "Common in children, and among men and women in their 40s and 50s"
+  }, {
+    "@value" : "Develops from cells that line the hollow cavities at the bottom of the brain and the canal containing the spinal cord"
+  }, {
+    "@value" : "May be located in the ventricles (cavities in the center of the brain)"
+  }, {
+    "@value" : "May block the ventricles, causing hydrocephalus (water on the brain)"
+  }, {
+    "@value" : "Occurrence peaks at age five and again at age 34"
+  }, {
+    "@value" : "Sometimes extends to the spinal cord"
+  }, {
+    "@value" : "Usually localized to one area of the brain"
+  }, {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Difficulty_walking"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fatigue_and_sleepiness"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neck_pain_or_stiffness"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Problems_with_coordination"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "443643007"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This tumor arises from the ependymal cells lining the cerebrospinal fluid sacs (ventricles) of the brain. It commonly affects children but can occur at any age. An ependymoma is a low-grade malignancy that is best treated by removing as much as is safely possible by surgery. Sometimes the tumor cells can spread through the spinal fluid. Radiation therapy is sometimes used. It has not yet been determined whether or not chemotherapy is useful in these tumors. A myxopapillary ependymoma is a benign tumor that occurs in the spine."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Epidermoid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Experiencing_viruses_and_common_infections",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fatigue_and_sleepiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fibrillary_(gemistocytic,_protoplasmic)_astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lower_grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "71314006"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a tumor that grows relatively slowly, arising from astrocytes, the glial cells that nourish and support the neurons within the brain. The tumor cells of astrocytomas mix and coexist with normal brain tissue. While often referred to as \"benign\" tumors, they are more accurately considered low-grade malignancies because they have the potential to, and usually do, recur or turn into high-grade malignancies over time. They are often found in young adults but can occur at any age. Other types of astrocytomas in this category are the gemistocytic and protoplasmic varieties.\nTreatment is dictated by the tumor's location and patient's symptoms. Surgery may benefit patients whose tumors are located in parts of the brain that are not functionally important, those with large tumors exerting pressure on the brain, or those that cause seizures. Because tumor cells grow into the normal brain and may extend an inch or more from the visible edge of the tumor, not every cell can be removed surgically. Cells left behind can lead to tumor recurrence. Because of this, follow-up scans may be needed.\nThe role of radiation therapy is controversial for low-grade astrocytomas. Although radiation therapy may lead to longer survival, the side effects of radiation, such as impaired thinking and memory, limit its practical use in people with these tumors. In addition, the inability to then use radiation treatments when the tumor progresses has led many doctors to defer radiation treatments in patients who are not having symptoms and whose tumors are not actively growing."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fortis_Hospitals,_Bangalore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "154/9, Bannerghatta Road, Opp. IIM-B"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Bangalore"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "India"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Fortis Hospitals"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "560076"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fortis_Hospitals,_Kolkata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "#730, Anandapur\nEM Bypass Road"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Kolkata"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "India"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Fortis Hospitals"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "700107"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fortis_Hospitals,_Mumbai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "Mulund Goregaon Link Road"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Mumbai"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "India"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Fortis Hospitals"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400078"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Ganglioglioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasMeshID" : [ {
+    "@value" : "D018303"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_ICDO-3_Code" : [ {
+    "@value" : "M9505/1"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "89880005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Ganglioglioma is a tumour that arises from ganglion cells in the central nervous system.\nThe term \"gangliocytoma\" is sometimes equated with ganglioglioma. However, it is also sometimes equated with ganglioneuroma.[2] In this context, the glial nature of the tumor is de-emphasized. The term \"gangliocytoma\" is sometimes used to imply that the tumor is entirely neuronal.\nWhile Gangliogliomas are most well known as occurring in the temporal lobe of the brain, they can occur anywhere in the brain, or in the spinal cord. Gangliogliomas in the brain are often associated with seizures.\nThey are the second most common cause of spinal cord tumors in children.\nGangliogliomas are mature ganglion cells clustered with neoplastic glial cells."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gene_transfer_Protein_therapeutics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Cause"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Germinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28307001"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Radiotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This tumor looks just like ovarian or testicular cancer under the microscope. It is the most common of the germ cell tumors of the brain. It may spread or \"seed\" through the spinal fluid. About one third of tumors in the pineal region are germinomas; however, this tumor can occur in many locations within the brain. This tumor may cause headaches, visual problems, hormonal disturbances and blockage of spinal fluid (hydrocephalus). It is treated with surgery (often a biopsy for making the diagnosis), radiotherapy and sometimes chemotherapy. The germinoma is very responsive to radiation therapy, but doctors may attempt to avoid the use of radiation in the very young."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Glioblastoma_multiforme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Highest-grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasOccurs" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#consuming_alcohol"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_ICDO-3_Code" : [ {
+    "@value" : "9440,9441,9442/3"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "63634009"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#identifiedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Computed_Tomography"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Magnetic_Resonance_Imaging"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is the most common primary (i.e. from the brain itself) brain tumor affecting adults. Unfortunately, it is a rapidly growing, destructive tumor that may lead to death within months. Under the microscope, the tumor has the features of an anaplastic astrocytoma with the addition of areas of dead tissue (necrosis). Necrosis occurs because the tumor cells grow faster than new blood vessels can be produced to nourish the tumor cells. Surgery, radiation and chemotherapy are first line treatments that may prolong life to a year or so. Not all patients are candidates for surgical removal of the tumor, for example if the tumor has already spread into vital structures or to both sides of the brain (e.g. \"butterfly glioma\").\nIt is extremely rare for this tumor to be completely removed by surgery. This is because at the time of first diagnosis, it has usually already spread deep into the brain. Removing the part of the tumor that \"lights up\" on the MRI or CT scan does not mean that all the malignant cells have been removed. While radiation therapy does help most patients to live a bit longer, chemotherapy only benefits about a quarter of patients. Another treatment that has been approved by the U.S. Food and Drug Administration (FDA) for these tumors is the surgical implantation of wafers containing chemotherapy directly into the area of the tumor. Radiosurgery has also been used. Immunotherapy, gene therapy and other experimental treatments are currently under investigation for this very serious disease."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliomas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliomatosis_cerebri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Highest-grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26138003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "The best way to think of gliomatosis cerebri is as a diffuse, infiltrating high-grade astrocytoma without a definite mass. The tumor cells are intermixed with normal tissue throughout the majority of the brain. Gliomatosis cerebri does not respond well to radiation or chemotherapy, although these may be used to attempt to slow the course of the disease. Surgery other than biopsy is also usually not an option."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliosarcoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Highest-grade_malignancies", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "35262004"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This tumor has the characteristics of a glioblastoma, but also includes malignant tissue that is not glial in origin (sarcoma) -- which may come, for instance, from the membranes that cover the brain. The tumor tends to be even more resistant to conventional treatments (surgery, radiation therapy and chemotherapy) than glioblastoma. Small tumors might be partially controlled by radiosurgery."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gorlins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "PTCH gene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gradual_loss_of_movement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hamartoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Having_a_history_of_head_trauma,_epilepsy,_seizures_or_convulsions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "25064002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Although headaches are probably the most common symptom of a brain tumor, most people with headaches – even persistent or severe headaches – do not have a tumor. However, some kinds of headaches are particularly worrisome. A steady headache that is worse in the morning than the afternoon, a persistent headache that is associated with nausea or vomiting, or a headache accompanied by double vision, weakness, or numbness all suggest a possible tumor."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hearing_loss_with_or_without_dizziness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hemangioblastoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Higher-grade_malignancies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Highest-grade_malignancies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Clinic_address"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Immunotherapy_Alternating_electrical_fields_Metabolic_therapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Impotence_in_men",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Infertility_or_abnormal_cessation_of_menstruation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Institution_no",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_contract_no"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Institutional_email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#email"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Li-Fraumeni_syndrome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "TP53 gene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lipoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lower_grade_malignancies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Gliomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Magnetic_Resonance_Imaging",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Diagnosis" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#requiredCost" : [ {
+    "@value" : "Rs 3000-6000"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "MRI (magnetic resonance imaging) gives pictures of the brain, using a powerful magnet linked to a computer. MRI is especially useful in diagnosing brain tumors because it can \"see\" through the bones of the skull to the tissue underneath. A special dye may be used to enhance the likelihood of detecting a brain tumor."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Malignant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Meningioma" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#identifiedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Magnetic_Resonance_Imaging"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Medication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Medulloblastoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primitive_neuroectodermal_tumors_(PNET)" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "A type of primitive neuroectodermal tumor (PNET)"
+  }, {
+    "@value" : "Can spread to the spinal cord through the cerebrospinal fluid (CSF)"
+  }, {
+    "@value" : "May obstruct the fourth ventricle, causing hydrocephalus (water on the brain)"
+  }, {
+    "@value" : "Occurs most often in children under the age of ten, but may occur in adults"
+  }, {
+    "@value" : "Often located in the cerebellum or near the brain stem"
+  }, {
+    "@value" : "Slightly more common in males than females"
+  }, {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Double_vision"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Early_morning_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Problems_with_coordination"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "443333004"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "See primitive neuroectodermal tumors (PNETs). A medulloblastoma is a PNET that arises in or near the fourth ventricle. It is a fast-growing, invasive tumor, which may spread through the spinal fluid. Children are usually affected, boys more commonly than girls. Treatment includes surgical removal, staging (see PNET), and radiation and/or chemotherapy, depending on the patient's age."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Meningioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A meningioma is a tumor that arises from the membranes that cover the brain and surround the central nervous system (i.e. the \"linings\" of the skull and spine). It is the most common benign brain tumor in adults. Meningiomas usually grow slowly; some may not grow at all and the doctor may choose to follow possible growth of the tumor with scans done over time. Symptoms may include headache, seizure, loss of brain function (such as weakness, incoordination, sensory problems), visual problems, hearing or swallowing difficulties, loss of smell or taste, or other problems depending on the location and behavior of the mass. This tumor may grow to be quite large before it produces symptoms. The explanation for this is that some meningiomas grow so slowly that the brain can gradually shift or adapt to the presence of the tumor. On the other hand, meningiomas can be found coincidentally on scans that are being done for other reasons. Removing a small meningioma, for example, wouldn't necessarily be expected to cure someone's headaches.\nThe preferred treatment for a meningioma is usually considered to be surgery if the lesion can be largely removed at sufficiently low risk. A more complete removal is associated with a lower risk of recurrence or progression. The surgical removal usually includes bone and/or dura (one of the layers of the meninges) into which the tumor has spread. Replacement of these structures may be needed. Radiation therapy, radiosurgery and/or growth-modifying drugs may be considered as treatment options for incompletely-removed tumors or at time of tumor recurrence or progression.\nA small fraction of meningiomas may be aggressive or malignant. Malignant meningiomas are treated with surgery, radiation therapy and possibly chemotherapy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Metastatic_brain_tumors_and_carcinomatous_meningitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Secondary brain tumors are tumors caused from cancer that originates in another part of the body. These tumors are not the same as primary brain tumors.\nThe spread of cancer within the body is called metastasis. Cancer that spreads to the brain is the same disease and has the same name as the original (primary) cancer. For example, if lung cancer spreads to the brain, the disease is called metastatic lung cancer because the cells in the secondary tumor resemble abnormal lung cells, not abnormal brain cells.\nTreatment for secondary brain tumors depends on where the cancer started and the extent of the spread as well as other factors, including the patient's age general health, and response to previous treatment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Metastatic or secondary brain tumors begin as cancer in another part of the body. Some of the cancer cells may be carried to the brain by the blood or may spread from adjacent tissue. The site where the cancerous cells originated is referred to as the primary cancer. Metastatic brain tumors are often referred to as brain metastases or lesions. Metastatic brain tumors are the most common brain tumors. Because people are surviving primary cancers for longer periods of time, there has been an increase in metastatic lesions. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Secondary brain tumour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Mixed_germ_cell_tumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32844007"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Mixed_oligo-astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lower_grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Accounts for one percent of all brain tumors"
+  }, {
+    "@value" : "Common among men and women in their 20s-50s"
+  }, {
+    "@value" : "Composed of two or more types of glioma cells"
+  }, {
+    "@value" : "Graded according to the most aggressive type of tumor cells"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Partial_paralysis_on_one_side_of_the_body"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This tumor shares the microscopic appearance and behavior of both astrocytomas and oligodendrogliomas (see separate listings). Treatment options include surgery, radiation and/or chemotherapy."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#National_Brain_Tumor_Society",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Research_Institution" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasCausedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Glioblastoma_multiforme"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pilocytic_astrocytoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "nausea or vomiting that is most severe in the morning"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neck_pain_or_stiffness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neurocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neurofibroma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Tumors_of_nerves" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "404029005"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neurofibromatosis_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "NF1 gene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neurofibromatosis_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "NF 2 gene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neuroma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Tumors_of_nerves" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "443892003"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Neurosurgery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#OMEGA_Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Research_Institution" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Oligodendroglioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lower_grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Partial_paralysis_on_one_side_of_the_body"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_ICDO-3_Code" : [ {
+    "@value" : "9450"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "443936004"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "These tumors are thought to arise from the oligodendrocytes, which are the cells that wrap around nerve cells and act as a form of electrical insulation for conducting the nerve impulses. Recent evidence suggests that they may actually arise from progenitor cells that are immature oligodendrocytes. These tumors also tend to occur in young adults and may contain calcium deposits that appear on brain scans. They tend to be slower growing than low-grade astrocytomas, but have the potential to turn into more aggressive tumors. Treatment is usually surgical and radiation therapy may be recommended. Chemotherapy is considered for progressive tumors, and usually recommended for anaplastic (i.e. more malignant) oligodendrogliomas. (Also see anaplastic oligodendroglioma)."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Optic_nerve_glioma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lower_grade_malignancies" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Can range from low grade to high grade"
+  }, {
+    "@value" : "Named for its location on or near the nerve pathways between the eyes and the brain"
+  }, {
+    "@value" : "Occurs most often in infants and children, but can occur in adults"
+  }, {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Double_vision"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "254976006"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Optic nerve gliomas occur in about 10% of patients with neurofibromatosis type I (NF I -- see below), usually during childhood. They may involve the optic nerve, optic chiasm and/or optic tract, which are various parts of the visual system. The tumor usually does not spread to other parts of the brain, unless it is a higher grade (more malignant) glioma. In those without NF I, they may occur at any age. These tumors may be treated with radiation and/or chemotherapy; surgery is also sometimes used depending on the patient."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Palliative_therapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pantai_Hospital_Kuala_Lumpur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "8, Jalan Bukit Pantai"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Kuala Lumpur"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Pantai Hospital"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "59100"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Parkway_Gleneagles_Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "6A Napier Road"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Parkway Gleneagles Hospital"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "258500"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Parkway_Mount_Elizabeth_Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "3 Mount Elizabeth"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Parkway Mount Elizabeth Hospital"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "228510"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Partial_paralysis_on_one_side_of_the_body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Personal_email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#email"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Personal_no",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_contract_no"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pilocytic_astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "Accounts for two percent of all brain tumors"
+  }, {
+    "@value" : "Grows in the cerebrum, optic nerve pathways, brain stem and cerebellum"
+  }, {
+    "@value" : "Occurs most often in children and teens"
+  }, {
+    "@value" : "Slow growing, with relatively well-defined borders"
+  }, {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasMeshID" : [ {
+    "@value" : "D001254"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_ICDO-3_Code" : [ {
+    "@value" : "9421"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "128854008"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#identifiedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Computed_Tomography"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Magnetic_Resonance_Imaging"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Also called Juvenile Pilocytic Astrocytoma (JPA)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Pilocytic astrocytoma or juvenile pilocytic astrocytoma or cystic cerebellar astrocytoma (and its variant juvenile pilomyxoid astrocytoma) is a neoplasm of the brain that occurs more often in children and young adults (in the first 20 years of life). They usually arise in the cerebellum, near the brainstem, hypothalamic region, or the optic chiasm, but they may occur in any area where astrocytes are present, including the cerebral hemispheres and the spinal cord. These tumors are usually slow growing. The neoplasms are associated with the formation of a single (or multiple) cyst(s), and can become very large.\nThe pilocytic astrocytoma is, in general, considered a benign tumor. It is often cystic, and, if solid, it tends to be well-circumscribed. It is characteristically a contrast-enhancing tumor by current imaging investigations (e.g., CT scan, MRI)\nJuvenile pilocytic astrocytoma is associated with neurofibromatosis type 1 (NF1), and optic gliomas are among the most frequently encountered tumors in patients with this disorder."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Clinic_address"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_cyst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "413099000"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is generally considered to be a benign lesion, rarely causing symptoms. A pineal cyst is often discovered coincidentally when a patient is scanned for an unrelated reason such as a headache."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_gliomas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_teratoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineoblastoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primitive_neuroectodermal_tumors_(PNET)" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31671006"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a PNET of the pineal gland (see PNET). It tends to grow rapidly and chemotherapy and radiation therapy is usually recommended."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pineal_Tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "89096009"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Radiotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a tumor derived from pineal gland tissue, but it grows more slowly than a pineoblastoma. It is treated with surgery and radiotherapy; radiosurgery has also been used."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_adenoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "254956000"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "These are common benign tumors of the pituitary gland. It is said that up to 10 percent of people will have a pituitary adenoma (which might never have caused a problem) by the time of their death. The pituitary gland is considered the \"master gland\" of the body; it produces hormones that regulate the other glands. Some tumors secrete one or more of these hormones in excess. Such so-called secretory pituitary adenomas are usually found due to hormonal imbalances that affect bodily functions. They may be relatively small when detected."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Change_in_behavior"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Impotence_in_men"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "128665000"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Radiotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "These are rare cancers of the pituitary gland. They are difficult to control locally and are usually treated with surgery and some type of radiation (radiotherapy and/or radiosurgery). They may spread to other organs of the body."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_tumour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_Central_Nervous_System_Lymphoma_(PCNSL)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Primary brain tumors originate in the brain itself. Primary brain tumors do not spread from the brain to other parts of the body except in rare cases. Pathologists classify primary brain tumors into two groups: glial tumors (gliomas) and nonglial tumors. Gliomas are composed of glial cells, which include astrocytes, oligodendrocytes, ependymal cells, Schwann cells, microglia, and satellite cells. Nonglial tumors develop on or in structures within the brain, such as nerves, blood vessels, and glands."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Primary brain tumour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primitive_neuroectodermal_tumors_(PNET)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Problems_with_coordination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Protoplasmic_astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "55094006"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a rare tumor which is typically slow-growing and displaces rather than mixes in with (i.e. infiltrates) normal brain tissue. The tumor is therefore somewhat better controlled by surgery than the more common low-grade astrocytoma. Additional treatment may include radiation therapy or radiosurgery if the tumor progresses."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Radiotherapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ],
+  "http://xmlns.com/foaf/0.1/hasExpert" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Jorge_Humberto_Guajardo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Rathke's_cleft_cyst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Cysts", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pituitary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "52859009"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a slowly-growing fluid-filled cyst, thought to be left over from the fetal stage. The theory is that cells that should have migrated to the nasal/throat area became trapped in the region of the pituitary gland. Treatment includes observation, surgery and/or radiosurgery."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ],
+  "http://xmlns.com/foaf/0.1/hasExpert" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Jagdeep_Nanra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Research_Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Rhabdomyosarcoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "pediatric"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "302847003"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Chemotherapy"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Sarcomas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Schwannoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Tumors_of_nerves" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "404022001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Sensation_in_an_arm_or_leg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Sime_Darby_Medical_Centre_Ara_Damansara",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Address_line1" : [ {
+    "@value" : "Lot 2, Jalan Lapangan Terbang Subang\nSeksyen U2"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#City" : [ {
+    "@value" : "Ara Damansara"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital_name" : [ {
+    "@value" : "Sime Darby Medical Centre"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#PinNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40150"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Skull_base_primary_tumour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Smoking_cigarettes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Speech_difficulty_of_gradual_onset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Stereotactic_radiosurgery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ],
+  "http://xmlns.com/foaf/0.1/hasExpert" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Lee_Kheng_Hin"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Yot_Navalitloha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Subependymal_giant_cell_astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Seizure"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "449799008"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Generally a benign tumor, arising from tissue off the fluid sacs (ventricles) of the brain. This tumor is often seen in children and some adults with a condition called Tuberous Sclerosis. Tuberous Sclerosis is characterized by seizures, certain skin abnormalities of the face, and varying degrees of mental retardation. Treatment usually consists of surgical removal, or observation if it is not causing symptoms."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Subependymoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize" : [ {
+    "@value" : "More common in men than in women"
+  }, {
+    "@value" : "Slow growing"
+  }, {
+    "@value" : "Usually located in the fourth and lateral ventricles"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Difficulty_walking"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Headache"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Nausea_or_vomiting"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4553004"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Biopsy"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A subependymoma is a type of brain tumor; specifically, it is a rare form of ependymal tumor.\nThe prognosis for a subependymoma is better than for most ependymal tumors, and is considered a grade I/IV tumor in the World Health Organization (WHO) classification.\nThey are classically found within the fourth ventricle, typically have a well demarcated interface to normal tissue and do not usually extend into the brain parenchyma, like ependymomas often do."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ],
+  "http://xmlns.com/foaf/0.1/hasExpert" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Benedict_Marius_Selladurai"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Deepu_Banerji"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Jagdeep_Nanra"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._K_N_Krishna"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Memet_Ozek"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Pream_Pillay"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery_followed_by_radiation_therapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Symptomatic_therapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Teratoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Benign_primary_tumour" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Tuberous_Sclerosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "TSC1 and TSC2 genes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Tumors_of_nerves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Primary_tumour_of_the_brain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Turcots",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Genetic_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "APC gene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Unsteadiness_or_imbalance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Unsteadiness or imbalance, especially if it is associated with headache"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Vision_problems",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Loss of vision in one or both eyes, especially if the vision "
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Xanthomatous_astrocytoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Lowest_grade_tumors" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "This is a rare tumor usually seen in young adults, often found in a temporal lobe after a seizure. It tends not to infiltrate (mix) with normal brain tissue, but may spread along the meninges. The tumor and further seizures are usually controlled by its surgical removal, but it is intermediate in its’ grade (i.e. degree of malignancy). Follow-up scans over time are recommended. Radiation, radiosurgery and/or re-operation may be suggested for a recurrent tumor.\n"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#availableDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#belongsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Clinic_address"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#characterize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#consuming_alcohol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#Name"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasCausedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasMeshID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasOccurs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Cause"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#hasSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Symptom"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_ICDO-3_Code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_SNOMED_CT®_ConceptId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_contract_no",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#has_url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#identifiedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Hospital"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#lastName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#petroleum_refining/production",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Working in"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#requiredCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#residential_power_lines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Being exposed to"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#second_hand_smoke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Being exposed to"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#smoking_cigarettes_while_pregnant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#synthetic_rubber_manufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Working in"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#treatedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#using_antihistamines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#using_birth_control_pills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#using_headache_remedies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#using_sleeping_pills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Environmental_cause" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Biopsy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Clinic_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Amitabha_Chanda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Personal_no" : [ {
+    "@value" : "9830017138"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Amitabha"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fortis_Hospitals,_Kolkata"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Benedict_Marius_Selladurai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Benedict"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Sime_Darby_Medical_Centre_Ara_Damansara"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Chee_Chee_Pin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Chee"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Pantai_Hospital_Kuala_Lumpur"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Deepu_Banerji",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Deepu"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fortis_Hospitals,_Mumbai"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Halili_Bin_Rahmat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Halili"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Sime_Darby_Medical_Centre_Ara_Damansara"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Jagdeep_Nanra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Jagdeep"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Removal_of_the_tumor_by_surgery"
+  }, {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Jorge_Humberto_Guajardo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Jorge"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#CIMA_Monterrey"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Radiotherapy"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._K_N_Krishna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Personal_no" : [ {
+    "@value" : "9980008435"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Fortis_Hospitals,_Bangalore"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ],
+  "http://xmlns.com/foaf/0.1/l#workplaceHomepage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.medicaltourismco.com/india-hospitals/doctors/dr-k-n-krishna.php"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Lee_Kheng_Hin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Lee"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Parkway_Gleneagles_Hospital"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Stereotactic_radiosurgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Memet_Ozek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Memet"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Acibadem_Kozyatagi_Hospital"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Muruga_Kumar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Muruga"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Sime_Darby_Medical_Centre_Ara_Damansara"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Pream_Pillay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Pream"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Parkway_Mount_Elizabeth_Hospital"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Surgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Sergio_Castillo_Carrillo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Sergio"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Christus_Muguerza"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Dr._Yot_Navalitloha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist" ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#firstName" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#Name",
+    "@value" : "Yot"
+  } ],
+  "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#isAvailableIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Bumrungrad_International"
+  } ],
+  "http://xmlns.com/foaf/0.1/expertIn" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Stereotactic_radiosurgery"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Radiation_therapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ],
+  "http://xmlns.com/foaf/0.1/hasExpert" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Dr._Yot_Navalitloha"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Radiosurgery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Whole_brain_radiation_therapy_(WBRT)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/expertIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/hasExpert"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/hasExpert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_Treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/has_ofiice_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/l#workplaceHomepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/samsung/ontologies/2012/10/untitled-ontology-9#Brain_tumour_specialist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+} ]
